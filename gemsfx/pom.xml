@@ -12,8 +12,8 @@
     </parent>
 
     <groupId>com.dlsc.gemsfx</groupId>
-    <artifactId>gemsfx</artifactId>
-    <version>1.92.0</version>
+    <artifactId>gemsfx-eswitch</artifactId>
+    <version>1.92.0.1</version>
     <packaging>jar</packaging>
 
     <name>GemsFX</name>

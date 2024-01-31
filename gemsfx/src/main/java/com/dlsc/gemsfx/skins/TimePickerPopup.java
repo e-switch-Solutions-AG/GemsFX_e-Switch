@@ -87,6 +87,19 @@ public class TimePickerPopup extends HBox {
             }
         });
 
+        hourListView.setOnMouseClicked((ev)->{
+            System.out.println("Hours clicked");
+        });
+        minuteListView.setOnMouseClicked((ev)->{
+            System.out.println("Minute clicked");
+        });
+        secondListView.setOnMouseClicked((ev)->{
+            System.out.println("Second clicked");
+        });
+        millisecondListView.setOnMouseClicked((ev)->{
+            System.out.println("Millis clicked");
+        });
+
         timePicker.timeProperty().addListener(it -> updateListViewSelection());
 
         getChildren().addAll(hourListView, minuteListView, secondListView, millisecondListView);
